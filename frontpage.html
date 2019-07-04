@@ -1,3 +1,13 @@
+<style>
+    #notice-board img{
+        opacity: 0.75;
+    }
+    #notice-board img:hover {
+        opacity: 1.0;
+    }
+</style>
+
+
 <script>
     $(document).ready(function(){
         $('[data-toggle="popover"]').popover();
@@ -17,19 +27,25 @@
         <div class="col-sm-4">
             <h3>Column 1</h3>
             <p>Lorem ipsum dolor..</p>
-            <a href="#"><img class="img-fluid" src="frontpageinsert/picture1.png"></a>
+            <div id="notice-board">
+                <a href="#"><img class="img-fluid" src="frontpageinsert/picture1.png"></a>
+            </div>
         </div>
 
         <div class="col-sm-4">
             <h3>Column 2</h3>
             <p>Lorem ipsum dolor..</p>
-            <a href="#"><img class="img-fluid" src="frontpageinsert/picture2.png"></a>
+            <div id="notice-board">
+                <a href="#"><img class="img-fluid" src="frontpageinsert/picture2.png"></a>
+            </div>
         </div>
 
         <div class="col-sm-4">
             <h3>Column 3</h3>
             <p>Lorem ipsum dolor..</p>
-            <a href="#"><img class="img-fluid" src="frontpageinsert/picture3.png"></a>
+            <div id="notice-board">
+                <a href="#"><img class="img-fluid" src="frontpageinsert/picture3.png"></a>
+            </div>
         </div>
 
     </div>
